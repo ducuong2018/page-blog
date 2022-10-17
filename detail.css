@@ -1,1 +1,65 @@
-/*# sourceMappingURL=detail.css.map */
+.body > .container > .wrap-content {
+  margin-top: 39px;
+  margin-bottom: 106px;
+}
+.body > .container > .wrap-content > .content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+.wrapper .time {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+
+.read {
+  background: #00becb;
+  border-radius: 8px;
+  border: 0;
+  width: 163px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.read > img {
+  margin-right: 8px;
+}
+.read > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.165px;
+  color: #ffffff;
+}
+
+.wrap-title {
+  background: linear-gradient(180deg, #839eaf 0%, #395167 72.4%);
+}/*# sourceMappingURL=detail.css.map */

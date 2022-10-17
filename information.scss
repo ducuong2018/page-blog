@@ -1,0 +1,160 @@
+.wrap-title {
+  background: #00becb;
+}
+
+.wrap-event {
+  background: linear-gradient(90.1deg, #2be3ef 0.1%, #57e7f0 90.09%);
+  border-radius: 8px;
+  height: 104px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > .event {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.165px;
+
+    color: #fff;
+  }
+}
+.btn-register {
+  background: #dffafc;
+  border-radius: 8px;
+  height: 44px;
+  width: 163px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  > span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.165px;
+
+    color: #00becb;
+  }
+}
+
+.wrap-profile {
+  margin-top: 32px;
+  > .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+
+    color: #000000;
+  }
+  > .content {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    letter-spacing: -0.3px;
+
+    color: #333333;
+
+    margin-top: 12px;
+  }
+}
+
+.wrap-location {
+  margin-top: 32px;
+  > .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+
+    color: #000000;
+  }
+  > .map {
+    margin-top: 12px;
+    width: 100%;
+    height: 240px;
+  }
+  > .address {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.wrap-experts {
+  margin-top: 32px;
+
+  > .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+
+    color: #000000;
+  }
+  > .list-experts {
+    margin-top: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > .experts {
+      width: 100px;
+      > img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+      }
+      > .name {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.3px;
+
+        /* Gray 1 */
+
+        color: #333333;
+        margin-top: 8px;
+      }
+
+      > .position {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.3px;
+
+        /* Gray 1 */
+
+        color: #333333;
+
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+.wrap-banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
