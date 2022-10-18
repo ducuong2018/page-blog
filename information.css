@@ -86,6 +86,25 @@
 .wrap-location > .address {
   display: flex;
   align-items: flex-start;
+  margin-top: 23px;
+}
+.wrap-location > .address > div > .location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #333333;
+}
+.wrap-location > .address > div > .street {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+  color: #333333;
 }
 
 .wrap-experts {
@@ -105,9 +124,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.wrap-experts > .list-experts::-webkit-scrollbar {
+  display: none;
 }
 .wrap-experts > .list-experts > .experts {
   width: 100px;
+  margin-right: 54px;
+}
+.wrap-experts > .list-experts > .experts :last-child {
+  margin-right: 0;
 }
 .wrap-experts > .list-experts > .experts > img {
   height: 100px;
