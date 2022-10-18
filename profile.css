@@ -17,6 +17,9 @@
   color: #333333;
   margin-top: 12px;
 }
+.wrap-profile > .content > p {
+  margin-bottom: 8px;
+}
 
 .wrap-podcast {
   margin-top: 32px;
