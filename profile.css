@@ -37,12 +37,22 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 19px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.wrap-podcast > .list-podcast::-webkit-scrollbar {
+  display: none;
 }
 .wrap-podcast > .list-podcast > .podcast {
   width: 124px;
+  margin-right: 20px;
+}
+.wrap-podcast > .list-podcast > .podcast :last-child {
+  margin-right: 0;
 }
 .wrap-podcast > .list-podcast > .podcast > img {
-  width: 100%;
+  width: 124px;
   height: 124px;
 }
 .wrap-podcast > .list-podcast > .podcast > .name {
@@ -54,6 +64,25 @@
   letter-spacing: -0.3px;
   color: #333333;
   margin-top: 8px;
+}
+.wrap-podcast > .list-podcast > .podcast .wrap-content > .content > .name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+.wrap-podcast > .list-podcast > .podcast .wrap-content > .content > .position {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
 }
 .wrap-podcast > .list-podcast > .podcast > .description {
   font-family: "Inter";
@@ -79,4 +108,42 @@
 
 .wrap-title {
   background: linear-gradient(180deg, #7da3a6 0%, #bed1d5 100%);
+}
+
+.wrap-content > .content {
+  margin-top: 200px !important;
+}
+@media screen and (max-width: 516px) {
+  .wrap-content > .content {
+    margin-top: 215px !important;
+  }
+}
+.wrap-content > .content > .name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+@media screen and (max-width: 516px) {
+  .wrap-content > .content > .name {
+    font-size: 22px;
+  }
+}
+.wrap-content > .content > .position {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+@media screen and (max-width: 516px) {
+  .wrap-content > .content > .position {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=profile.css.map */

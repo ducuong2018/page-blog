@@ -46,10 +46,22 @@
     align-items: center;
 
     margin-top: 19px;
+
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     > .podcast {
       width: 124px;
+      margin-right: 20px;
+      :last-child {
+        margin-right: 0;
+      }
+
       > img {
-        width: 100%;
+        width: 124px;
         height: 124px;
       }
       > .name {
@@ -64,6 +76,33 @@
 
         margin-top: 8px;
       }
+      .wrap-content {
+        > .content {
+          > .name {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            /* identical to box height */
+
+            letter-spacing: -0.3px;
+
+            color: #ffffff;
+          }
+          > .position {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: -0.3px;
+
+            color: #ffffff;
+          }
+        }
+      }
+
       > .description {
         font-family: "Inter";
         font-style: normal;
@@ -95,4 +134,41 @@
 
 .wrap-title {
   background: linear-gradient(180deg, #7da3a6 0%, #bed1d5 100%);
+}
+
+.wrap-content {
+  > .content {
+    @media screen and (max-width: 516px) {
+      margin-top: 215px !important;
+    }
+    margin-top: 200px !important;
+    > .name {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      /* identical to box height */
+
+      letter-spacing: -0.3px;
+
+      color: #ffffff;
+      @media screen and (max-width: 516px) {
+        font-size: 22px;
+      }
+    }
+    > .position {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: -0.3px;
+
+      color: #ffffff;
+      @media screen and (max-width: 516px) {
+        font-size: 13px;
+      }
+    }
+  }
 }
